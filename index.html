@@ -11,52 +11,56 @@
 </head>
 
 <body>
-  <div class='container'>
-    <div class='row'>
-      <h1>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Latitude</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-    </div>
-    <h2>Summary: Latitude vs. X</h2>
-  </div>
-  <div class='row'>
-    <div class="col-md-12">
-      <span>
-        <img target='_blank' src="images/scatplotlatitudecloud.png" ALIGN="left" alt="Cloudiness Map">
-      </span>
-      <p></p>
-      <p>This webpage was desigined to display the results from data collected</p>
-      <p>during the data collection of lattitude versus various condtions.</p>
-      <p>Latitude was the constant during the recovery and displaying of data.</p>
-      <p>Data was retrieved from a JSON file from the openweather.com data site.</p>
-      <p> The data was parsed and tables were created for each of the graphs and are</p>
-      <p> included with the individual pages.</p>
-      <p>The varying parameters used to create the graphs are detailed here.</p>
-      <p> The parameters were: cloudiness, maximum temperature, and humidity.</p>
+  <nav class="navbar navbar-dark navbar-expand-md bg-light">
+    <nav class='row'>
+      <nav class='col-md-12' ALIGN='left'>
+        <a class="navbar-brand">Latitude </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+          <span class="navbar-toggler-icon"></span>
+          <div class='container'>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Graphs
+              </button>
+            </div>
+            <div class="jumbotron">
+              <h2 class="display-4" style="text-align: left;">Summary: Latitude vs. X</h2>
+              <p class="lead" style="text-align: left;">
+              <div class='row'>
+                <div class="col-md-12">
+                  <span>
+                    <img target='_blank' src="images/scatplotlatitudecloud.png" ALIGN="left" alt="Cloudiness Map">
+                  </span>
+                  <p>This webpage was desigined to display the results from data collected</p>
+                  <p>during the data collection of lattitude versus various condtions.</p>
+                  <p>Latitude was the constant during the recovery and displaying of data.</p>
+                  <p>Data was retrieved from a JSON file from the openweather.com data site.</p>
+                  <p> The data was parsed and tables were created for each of the graphs and are</p>
+                  <p> included with the individual pages.</p>
+                  <p>The varying parameters used to create the graphs are detailed here.</p>
+                  <p> The parameters were: cloudiness, maximum temperature, and humidity.</p>
+                </div>
+              </div>
+            </div>
+            <div class="jumbotron">
+              <h1 class="display-4" style="text-align: left;">Visualizations</h1>
+              <p class="lead" style="text-align: left;">
 
-    </div>
-  </div>
-  <div class='row'>
-    <div class='col=md-'>
-      <h3>Visualizations</h3>
-      <span>
-        <img target='_blank' src="images/scatplotlatitudemaxhumidity.png" ALIGN="left" alt="Max humidity Map">
-      </span>
-      <span>
-        <img target='_blank' src="images/scatplotlatitudemaxtemp.png" ALIGN="center" alt="Max humidity Map">
-      </span>
-      <span>
-        <img target='_blank' src="images/scatplotlatitudecloud.png" ALIGN="center" alt="Max humidity Map">
-      </span>
-      <span>
-        <img target='_blank' src="images/scatplotwindspeed.png" alt="Max humidity Map">
-      </span>
-    </div>
-  </div>
+                <hr class="my-4">
+                <a class="btn btn-primary btn-lg" href="" role="button"
+                  style="display: flex; align-items: center; justify-content: center;">Learn more</a>
+            </div>
+          </div>
+          <div class=container></div>
+          <div class='row'>
+            <div class='col=md-12'>
+              <img class="figure" src="images/scatplotlatitudemaxhumidity.png" ALIGN="left" alt="Max humidity Map">
+              <img class="figure" src="images/scatplotlatitudemaxtemp.png" ALIGN="center" alt="Max humidity Map">
+              <img class="figure" src="images/scatplotlatitudecloud.png" ALIGN="center" alt="Max humidity Map">
+              <img class="figure" src="images/scatplotwindspeed.png" alt="Max humidity Map">
+            </div>
+          </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
