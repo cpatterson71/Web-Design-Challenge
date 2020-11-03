@@ -11,7 +11,42 @@
 </head>
 
 <body>
-    
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-md bg-light">
+      <nav class='row'>
+        <nav class='col-md-12' ALIGN='left'>
+          <a class="navbar-brand">Latitude </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Graphs
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="/humidity.html">Humidity</a>
+                <a class="dropdown-item" href="/temperature.html">Max Temperature</a>
+                <a class="dropdown-item" href="/cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="/windspeed.html">Windspeed</a>
+                <a class="dropdown-item" href='/DataTable.html'>Data Table</a>
+              </div>
+            </div>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="jumbotron">
+          <h2 class="display-4" style="text-align: center;">Latitude Vs. Max Temperature</h2>
+          <p class="lead" style="text-align: center;">
+          <div class='row' ALIGN='Center'>
+            <div class='col-md-6' ALIGN="Center">
+              <span>
+                <img src="images/scatplotlatitudemaxtemp.png" class="img-fluid" Align="center" alt="Humidity">
+                <figcaption class="figure-caption">Latitude Vs. Max Temperature</figcaption>
+              </span>
+            </div>
+          <div class='col-md-6'>
+              <p> This is the graph for Latitude vs. Max Temperature</p>
+          </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

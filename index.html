@@ -23,10 +23,11 @@
               Graphs
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Humidity</a>
-              <a class="dropdown-item" href="#">Max Temperature</a>
-              <a class="dropdown-item" href="#">Cloudiness</a>
-              <a class="dropdown-item" href="#">Windspeed</a>
+              <a class="dropdown-item" href="/humidity.html">Humidity</a>
+              <a class="dropdown-item" href="/temperature.html">Max Temperature</a>
+              <a class="dropdown-item" href="/cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="/windspeed.html">Windspeed</a>
+              <a class="dropdown-item" href='/DataTable.html'>Data Table</a>
             </div>
           </div>
       </nav>
@@ -55,35 +56,35 @@
       </div>
       <div class="container">
         <div class="jumbotron">
-          <h2 class="display-4" style="text-align: center;">Visualizations</h2>
-          <p class="lead" style="text-align: center;">
-
-          <div class='row'>
-            <div class='col=md-3'>
-              <img class="figure">
-              <img class="figure-img img-fluid rounded" src="images/scatplotlatitudemaxhumidity.png" ALIGN="left"
-                alt="Max humidity Map"
-                href="\VTI-LT-174\Users\Administrator\Desktop\Web-Design-Challenge\humidity.html">
+          <h2 class="display-4" style="text-align: left;">Visualizations</h2>
+          <p class="lead" style="text-align: left;">
+          <div class='row' ALIGN='Center'>
+            <div class='col=md-3' ALIGN="Center">
+              <span>
+                <img src="images/scatplotlatitudemaxhumidity.png" class="img-fluid" alt="Humidity">
+                <figcaption class="figure-caption">Latitude Vs. Humidity</figcaption>
+              </span>
             </div>
-            <div class='col=md-3'>
-              <img class="figure">
-              <imgc class="figure-img img-fluid rounded" src="images/scatplotlatitudemaxtemp.png" ALIGN="center"
-                alt="Max humidity Map"
-                href='\VTI-LT-174\Users\Administrator\Desktop\Web-Design-Challenge\temperature.html'>
+            <div class='col=md-3' ALIGN='Center'>
+              <span>
+                <img src="images/scatplotlatitudecloud.png" class="img-fluid" alt="Cloudiness">
+                <figcaption class="figure-caption">Latitude Vs. Cloudiness</figcaption>
+              </span>
             </div>
-            <div class='col=md-3'>
-              <img class="figure">
-              <img class="figure" src="images/scatplotlatitudecloud.png" ALIGN="center" alt="Max humidity Map"
-                href='\VTI-LT-174\Users\Administrator\Desktop\Web-Design-Challenge\cloudiness.html'>
+            <div class='col=md-3' ALIGN='Center'>
+              <span>
+                <img src="images/scatplotlatitudemaxtemp.png" class="img-fluid" alt="Max Temperature">
+                <figcaption class="figure-caption">Latitude Vs. Max Temperature</figcaption>
+              </span>
             </div>
-            <div class='col=md-3'>
-              <img class="figure">
-              <img class="figure" src="images/scatplotwindspeed.png" alt="Max humidity Map"
-                href='\VTI-LT-174\Users\Administrator\Desktop\Web-Design-Challenge\windspeed.html'>
+            <div class='col=md-3' ALIGN='Center'>
+              <span>
+                <img src="images/scatplotwindspeed.png" class="img-fluid" alt="Windspeed">
+                <figcaption class="figure-caption">Latitude Vs. Windspeed</figcaption>
+              </span>
             </div>
           </div>
         </div>
-      </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
