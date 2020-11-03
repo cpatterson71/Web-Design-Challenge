@@ -17,65 +17,73 @@
         <a class="navbar-brand">Latitude </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
           <span class="navbar-toggler-icon"></span>
-          <div class='container'>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Graphs
-              </button>
-              <div class='dropdown-menu' aria-labelledby='dropdownMenuButton'>
-                <a class='dropdown-item'
-                  href='\VTI-LT-174\Users\Administrator\Desktop\Web-Design-Challenge\humidity.html'>Humidity</a>
-                <a class='dropdown-item'
-                  href='\VTI-LT-174\Users\Administrator\Desktop\Web-Design-Challenge\temperature.html'>Max Temperature</a>
-                <a class='dropdown-item'
-                  href='\VTI-LT-174\Users\Administrator\Desktop\Web-Design-Challenge\cloud.html'>Cloudiness</a>
-                <a class='dropdown-item'
-                  href='\VTI-LT-174\Users\Administrator\Desktop\Web-Design-Challenge\windspeed.html'>Windspeed</a>
-              </div>
-              <a class='btn btn-outline-primary'
-                href='\VTI-LT-174\Users\Administrator\Desktop\Web-Design-Challenge\index.html'></a>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Graphs
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Humidity</a>
+              <a class="dropdown-item" href="#">Max Temperature</a>
+              <a class="dropdown-item" href="#">Cloudiness</a>
+              <a class="dropdown-item" href="#">Windspeed</a>
             </div>
           </div>
-          <div class="jumbotron">
-            <h2 class="display-4" style="text-align: left;">Summary: Latitude vs. X</h2>
-            <p class="lead" style="text-align: left;">
-            <div class='row'>
-              <div class="col-md-12">
-                <span>
-                  <img target='_blank' src="images/scatplotlatitudecloud.png" ALIGN="left" alt="Cloudiness Map">
-                </span>
-                <p>This webpage was desigined to display the results from data collected</p>
-                <p>during the data collection of lattitude versus various condtions.</p>
-                <p>Latitude was the constant during the recovery and displaying of data.</p>
-                <p>Data was retrieved from a JSON file from the openweather.com data site.</p>
-                <p> The data was parsed and tables were created for each of the graphs and are</p>
-                <p> included with the individual pages.</p>
-                <p>The varying parameters used to create the graphs are detailed here.</p>
-                <p> The parameters were: cloudiness, maximum temperature, and humidity.</p>
-              </div>
-            </div>
-          </div>
-          <div class="jumbotron">
-            <h1 class="display-4" style="text-align: center;">Visualizations</h1>
-            <p class="lead" style="text-align: center;">
-          </div>
-          <div class=container></div>
+      </nav>
+      <div class="container">
+        <div class="jumbotron">
+          <h1 class="display-4" style="text-align: Center;">Summary: Latitude vs. X</h1>
+          <p class="lead" style="text-align: Center;">
           <div class='row'>
-            <div class='col=md-12'>
+            <div class="col-md-6">
+              <span>
+                <img target='_blank' src="images/scatplotlatitudecloud.png" ALIGN="Left" alt="Cloudiness Map">
+              </span>
+            </div>
+            <div class="col-md-6">
+              <p>This webpage was desigined to display the results from data collected</p>
+              <p>during the data collection of lattitude versus various condtions.</p>
+              <p>Latitude was the constant during the recovery and displaying of data.</p>
+              <p>Data was retrieved from a JSON file from the openweather.com data site.</p>
+              <p> The data was parsed and tables were created for each of the graphs and are</p>
+              <p> included with the individual pages.</p>
+              <p>The varying parameters used to create the graphs are detailed here.</p>
+              <p> The parameters were: cloudiness, maximum temperature, and humidity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="jumbotron">
+          <h2 class="display-4" style="text-align: center;">Visualizations</h2>
+          <p class="lead" style="text-align: center;">
+
+          <div class='row'>
+            <div class='col=md-3'>
               <img class="figure">
-               <img class="figure-img img-fluid rounded"
-                src="images/scatplotlatitudemaxhumidity.png" ALIGN="left" alt="Max humidity Map"
+              <img class="figure-img img-fluid rounded" src="images/scatplotlatitudemaxhumidity.png" ALIGN="left"
+                alt="Max humidity Map"
                 href="\VTI-LT-174\Users\Administrator\Desktop\Web-Design-Challenge\humidity.html">
+            </div>
+            <div class='col=md-3'>
               <img class="figure">
-              <imgc class="figure-img img-fluid rounded" src="images/scatplotlatitudemaxtemp.png" ALIGN="center" alt="Max humidity Map"
+              <imgc class="figure-img img-fluid rounded" src="images/scatplotlatitudemaxtemp.png" ALIGN="center"
+                alt="Max humidity Map"
                 href='\VTI-LT-174\Users\Administrator\Desktop\Web-Design-Challenge\temperature.html'>
+            </div>
+            <div class='col=md-3'>
+              <img class="figure">
               <img class="figure" src="images/scatplotlatitudecloud.png" ALIGN="center" alt="Max humidity Map"
                 href='\VTI-LT-174\Users\Administrator\Desktop\Web-Design-Challenge\cloudiness.html'>
+            </div>
+            <div class='col=md-3'>
+              <img class="figure">
               <img class="figure" src="images/scatplotwindspeed.png" alt="Max humidity Map"
                 href='\VTI-LT-174\Users\Administrator\Desktop\Web-Design-Challenge\windspeed.html'>
             </div>
           </div>
+        </div>
+      </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
